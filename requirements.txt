@@ -1,0 +1,52 @@
+sentence-transformers==2.2.2  
+langchain
+flask
+pypdf
+python-dotenv
+pinecone[grpc]
+langchain-pinecone
+langchain_community
+langchain_openai
+langchain_experimental
+-e . # connecting to setup.py
+
+# ### **1. sentence-transformers==2.2.2**
+#    - A Python library for **text embedding** using transformer models like BERT, RoBERTa, etc.
+#    - It helps convert sentences into numerical vectors that can be used for similarity comparisons, clustering, or search.
+#    - The `==2.2.2` means it requires version **2.2.2** specifically.
+
+# ### **2. langchain**
+#    - A popular framework for **building applications using LLMs (Large Language Models)**.
+#    - Provides tools for managing prompts, memory, chains, and integrations with various AI models.
+
+# ### **3. flask**
+#    - A lightweight web framework for building APIs and web applications in Python.
+#    - Commonly used to serve machine learning models or create chatbots.
+
+# ### **4. pypdf**
+#    - A library for **reading, extracting text, and manipulating PDF files**.
+#    - Useful for applications that process PDF documents.
+
+# ### **5. python-dotenv**
+#    - A library that **loads environment variables** from a `.env` file.
+#    - Used to store API keys and configuration settings securely.
+
+# ### **6. pinecone[grpc]**
+#    - **Pinecone** is a **vector database** used for similarity search and AI-powered retrieval.
+#    - The `[grpc]` option installs **gRPC support**, which speeds up database interactions.
+
+# ### **7. langchain-pinecone**
+#    - A LangChain integration for **using Pinecone as a vector store**.
+#    - Helps store and retrieve embeddings for LLM-based applications.
+
+# ### **8. langchain_community**
+#    - A collection of community-maintained integrations for LangChain.
+#    - Adds support for various LLMs, databases, and APIs.
+
+# ### **9. langchain_openai**
+#    - Provides **OpenAI-specific integrations** for LangChain.
+#    - Allows easy connection to OpenAIs GPT models.
+
+# ### **10. langchain_experimental**
+#    - Includes **experimental features** for LangChain.
+#    - Used to test cutting-edge functionalities before they become stable.
