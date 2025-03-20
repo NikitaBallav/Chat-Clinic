@@ -1,22 +1,27 @@
-# Chat-Clinic
+# Chat-Clinic  
 
-### Steps:
+## Steps  
 
-Clone the repository
+### Step 1: Clone the repository  
+Make sure you have Git installed, then run:  
+```bash
+git clone <repository_url>
+cd Chat-Clinic
+```  
 
-## step 1: create a conda environment after opening the repository
-### make sure conda is intalled
+### Step 2: Create a Conda environment  
+Ensure Conda is installed before proceeding.  
 
-''' bash
+```bash
 conda create -n chat_clinic python=3.10 -y
-'''
-
-'''bash
 conda activate chat_clinic
-'''
+```  
 
-## step 2: install the requirements
+### Step 3: Install dependencies  
+Run the following command to install the required packages:  
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```  
+
+Let me know if you need further modifications! 🚀
